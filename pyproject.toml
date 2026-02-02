@@ -1,0 +1,14 @@
+[project]
+name = "physical-ai-book"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "cohere>=5.20.1",
+    "qdrant-client>=1.16.2",
+    "requests>=2.32.5",
+    "trafilatura>=2.0.0",
+    "python-dotenv>=1.0.0",
+    "agent>=0.1.3",
+]
